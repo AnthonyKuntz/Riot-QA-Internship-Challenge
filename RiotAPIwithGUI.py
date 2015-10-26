@@ -43,7 +43,7 @@ class GUI(object):
 		self.canvas.create_image(0,0,image=self.bg,anchor=NW)
 		self.margin = self.width / 15
 		self.canvas.create_text(10,0,anchor=NW, text = "Enter stats and then press enter or click OK.", font = "Helvetica 10 bold",fill = "white")
-		self.canvas.create_text(10,15,anchor=NW, text = "CDR up to 100% is valid, since the results are interesting.", font = "Helvetica 10 bold",fill = "white")
+		self.canvas.create_text(10,15,anchor=NW, text = "CDR up to 100 is valid, since the results are interesting.", font = "Helvetica 10 bold",fill = "white")
 		self.canvas.create_text(10,30,anchor=NW, text = "Press r to restart.", font = "Helvetica 10 bold",fill = "white")
 
 		self.canvas.create_text(5,self.height - 5, text = "Created by: Anthony Kuntz | Ninjasorcerer", anchor = W, font = "Helvetica 8", fill = "black")
