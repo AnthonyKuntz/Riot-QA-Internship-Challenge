@@ -8,7 +8,7 @@ import os
 class GUI(object):
 
 	def __init__(self):
-		self.width = 800 # Feel free to change this value!
+		self.width = 1000 # Feel free to change this value!
 		self.height = 500
 		self.numberOfSpells = 5
 		self.calculator = RiotAPIandCalculator(self.numberOfSpells)
