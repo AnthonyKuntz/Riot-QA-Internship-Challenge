@@ -8,6 +8,6 @@ If you do not have both pip and python, it is recommended you run the EXE format
 
 To run:
 
-Run the "Main.py" file with Python 2.7
+Run the "Main.py" file with Python 2.7 in the "Program as a .PY" folder
  - or -
 Run "Efficient Spell Calculator.exe" in the "Program as an EXE" folder
